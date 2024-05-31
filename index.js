@@ -1,17 +1,20 @@
+
 const myInput = document.getElementById('display');
 function displayOnScreen(key) {
   myInput.value += key;
 }
-function deleteNumber() {
+function clearAll() {
   myInput.value = '';
 }
 function solution() {
-  try {
     myInput.value = eval(myInput.value);
-  } catch (error) {
-    myInput.value = 'error';
-  }
+
+}
+function deleteNumber() {
+myInput.value=myInput.value.slice(0,-1);
+    
 }
 displayOnScreen();
 deleteNumber();
 solution();
+clearAll();

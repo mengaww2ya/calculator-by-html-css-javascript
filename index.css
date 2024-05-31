@@ -31,22 +31,26 @@
   grid-template-columns: repeat(4, 20%);
   gap: 5%;
   overflow: hidden;
-  padding: 5% 20% 20%;
+  padding: 5% 10% 10% 10%;
 }
 
 .textArea {
   padding: 2%;
-  border: 1px solid;
   height: 10vh;
 }
 
 #display {
   width: 100%;
   height: 100%;
+  font-size: large;
+  font-weight: 300;
+  border-radius: 10%;
+
 }
 
 .calculator {
-  width: 60%;
   justify-content: center;
   background-color: rgb(75, 75, 65);
+  margin: 10%;
+  border-radius: 10%;
 }
