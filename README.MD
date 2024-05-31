@@ -1,0 +1,2 @@
+#THIS IS MY CLACULATOR
+This is a simple calculator application built using CSS, HTML, and JavaScript. It allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, and division.

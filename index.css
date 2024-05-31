@@ -1,0 +1,52 @@
+.numbers {
+  background-color: rgb(187, 176, 141);
+  color: black;
+  font-size: x-large;
+  margin: 1%;
+  border-radius: 20%;
+  height: 5vh;
+  font-weight: 500;
+}
+
+.operators {
+  background-color: rgb(85, 115, 122);
+  color: white;
+  font-size: x-large;
+  font-weight: 500;
+  margin: 1%;
+  border-radius: 20%;
+  height: 5vh;
+}
+
+.operators:hover,
+.numbers:hover {
+  background-color: rgb(143, 89, 194);
+  color: white;
+}
+
+.buttons {
+  border: 1px solid;
+  border-radius: 20%;
+  display: grid;
+  grid-template-columns: repeat(4, 20%);
+  gap: 5%;
+  overflow: hidden;
+  padding: 5% 20% 20%;
+}
+
+.textArea {
+  padding: 2%;
+  border: 1px solid;
+  height: 10vh;
+}
+
+#display {
+  width: 100%;
+  height: 100%;
+}
+
+.calculator {
+  width: 60%;
+  justify-content: center;
+  background-color: rgb(75, 75, 65);
+}

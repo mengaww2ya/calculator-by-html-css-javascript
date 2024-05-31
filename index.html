@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <section class="calculator">
+        <div class="textArea">
+        <textarea name="display" id="display" readonly></textarea>
+        </div>
+        <div class="buttons">
+            <button class="operators" onclick="deleteNumber()" >c</button>
+            <button class="operators" onclick="deleteNumber()" >x</button>
+            <button class="numbers" onclick="displayOnScreen('1')">1</button>
+            <button class="numbers" onclick="displayOnScreen('2')">2</button>
+            <button class="numbers"onclick="displayOnScreen('3')">3</button>
+            <button class="numbers" onclick="displayOnScreen('4')">4</button>
+            <button class="numbers" onclick="displayOnScreen('5')">5</button>
+            <button class="numbers"onclick="displayOnScreen('6')">6</button>
+            <button class="numbers"onclick="displayOnScreen('7')">7</button>
+            <button class="numbers"onclick="displayOnScreen('8')">8</button>
+            <button class="numbers"onclick="displayOnScreen('9')">9</button>
+            <button class="numbers" onclick="displayOnScreen('0')">0</button>
+            <button class="operators"onclick="displayOnScreen('+')" >+</button>
+            <button class="operators"onclick="displayOnScreen('-')">-</button>
+            <button class="operators" onclick="displayOnScreen('*')">*</button>
+            <button class="operators"onclick="displayOnScreen('/')">/</button>
+            <button class="operators" onclick="displayOnScreen('%')">%</button>
+            <button class="operators"onclick="solution('=')">=</button>
+            <button class="operators"onclick="displayOnScreen('.')" >.</button>
+
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
